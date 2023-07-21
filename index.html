@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bookmarker</title>
+  <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+  <header>
+    <h1>Bookmarker</h1>
+  </header>
+  <section>
+    <div class="form-container">
+      <form id="bookmarkForm">
+        <input type="text" id="siteName" placeholder="Bookmark Name">
+        <input type="text" id="siteUrl" placeholder="Website URL">
+        <input type="submit" value="Add Bookmark">
+      </form>
+    </div>
+  </section>
+  <section>
+    <table id="bookmarksTable">
+      <thead>
+        <tr>
+          <th>Bookmark Name</th>
+          <th>Website URL</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="bookmarksList"></tbody>
+    </table>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
